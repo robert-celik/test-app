@@ -68,7 +68,7 @@ fun setupDb() {
 fun RBuilder.button(eventHandler: EventHandler) {
     div {
         button {
-            +"Knapp"
+            +"Knapp2"
             attrs.onClickFunction = {
                 eventHandler.runIt()
             }
